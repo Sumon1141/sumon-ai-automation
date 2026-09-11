@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔑 API Key Manager"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Gemini -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Gemini API Key"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/geminiKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Gemini API Key"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Claude -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anthropic Claude API Key"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/claudeKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Claude API Key"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- OpenAI -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OpenAI API Key"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/openaiKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter OpenAI API Key"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Groq -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Groq API Key"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/groqKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Groq API Key"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- DeepSeek -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DeepSeek API Key"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/deepseekKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter DeepSeek API Key"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- ElevenLabs -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ElevenLabs API Key"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/elevenLabsKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter ElevenLabs API Key"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Tavily -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tavily Search API Key"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/tavilyKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Tavily API Key"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- OpenWeatherMap -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OpenWeatherMap API Key"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/weatherKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter OpenWeatherMap API Key"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- HuggingFace -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HuggingFace API Key"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/huggingfaceKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter HuggingFace API Key"
+            android:inputType="text"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💾 Save All API Keys"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

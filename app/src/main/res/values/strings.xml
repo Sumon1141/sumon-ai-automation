@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sumon AI</string>
+    <string name="settings_title">Settings</string>
+    <string name="api_key_manager_title">API Key Manager</string>
+    <string name="accessibility_service_description">Enable AI automation and voice control features</string>
+</resources>

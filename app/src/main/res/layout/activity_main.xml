@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🤖 Sumon AI"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Voice Input Button -->
+    <Button
+        android:id="@+id/voiceInputBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🎤 Start Voice Command"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Settings Button -->
+    <Button
+        android:id="@+id/settingsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="⚙️ Settings"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- API Key Manager Button -->
+    <Button
+        android:id="@+id/apiKeyManagerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🔑 API Key Manager"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- System Status Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System Status"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/accessibilityStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⏳ Checking Accessibility Service..."
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/enableAccessibilityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Accessibility Service"
+        android:visibility="gone"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/wifiStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📡 Wi-Fi: --"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/bluetoothStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔵 Bluetooth: --"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/volumeStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔊 Volume: --"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/systemStatusBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh System Status"
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>
