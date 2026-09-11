@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Bengali Translations -->
+    <string name="app_name">সুমন এআই</string>
+    <string name="settings_title">সেটিংস</string>
+    <string name="api_key_manager_title">API কী পরিচালক</string>
+    <string name="voice_command">ভয়েস কমান্ড</string>
+    <string name="send_message">বার্তা পাঠান</string>
+    <string name="whatsapp_automation">হোয়াটসঅ্যাপ অটোমেশন</string>
+    <string name="system_status">সিস্টেম স্ট্যাটাস</string>
+</resources>
